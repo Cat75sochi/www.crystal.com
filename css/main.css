@@ -1,0 +1,41 @@
+
+
+
+
+
+
+@font-face {
+	font-family: 'Twilight'; 
+	src: url(../fonts/8268.ttf);
+	 }
+
+@font-face {
+	font-family: 'Gardens CM';
+	src: url(../fonts/20011.ttf);
+
+}html {
+	width: 100%;
+	height: 100%;
+	
+
+
+}
+
+body {
+	1background-color: #E8E8E8FF;
+
+}
+
+img {
+
+	max-width: 100%;
+}
+
+.wraper { 
+	background-color: #FFFFFFFF;
+	margin: auto;
+	min-width: 400px;
+	max-width: 1024px;
+	
+
+}

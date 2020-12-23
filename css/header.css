@@ -1,0 +1,42 @@
+.header {
+	background-color: #ffffff;
+	width:1023px;
+	min-width: 400px;
+	height: 100px;
+	position: fixed;
+	top:0px;
+	left: inherit;
+	display: flex;
+	justify-content: flex-start;
+}
+
+.logo { 
+	border-radius: 50%;
+	border:1px solid #005083;
+	background-image: url(../images/logo100.png);
+	background-position: 10px 10px;
+	background-repeat: no-repeat;
+	width: 100px;
+	height: 100px;
+
+}
+
+@media (max-width: 400px)
+{.logo{width: 50px;
+	height: 50px;
+	background-image: url(../images/logo50.png);
+	background-position: 5px 5px;
+
+	}}
+
+
+.site-name {
+	padding-top: 10px;
+	text-align: center;
+	margin-left: calc(20px + (100 - 20) * ((100vw - 400px) / (1024 - 400)));
+	font-family: "Twilight";
+	color: #41C5C5FF;
+	font-size: calc(30px + (60 - 30) * ((100vw - 400px) / (1024 - 400)));
+	letter-spacing: 5px;
+
+}
