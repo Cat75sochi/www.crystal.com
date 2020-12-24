@@ -1,0 +1,43 @@
+@media all and (max-width: 800px){
+	body{background-image: url(../img/fon.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	width: 800px;
+}
+.wraper {}
+.header-top-block {}
+.header-top-block__logo {}
+.header-top-block__title {
+	font-size: 35px;
+	color: #ffffff;
+	text-shadow: 0.21rem 0.21rem #3E3E3EFF;
+}
+.header-top-block__tel {
+	font-size: 1.5rem;
+	color: #FF5500FF;
+}
+.content {}
+.content__ferst-block {}
+.ferst-block__text {
+	line-height: 1.5;
+	font-size: 1.7rem;
+	font-family: arial;
+}
+.ferst-block__list {}
+.ul {}
+.li {}
+.content__second-block {}
+.second-block__foto-box {}
+.second-block__foto1 {}
+.second-block__foto2 {}
+.second-block__foto3 {}
+.second-block__text {}
+.footer {}
+.copy {}
+.insta {}
+.face {}
+.watc {}
+}
+
+
+	
